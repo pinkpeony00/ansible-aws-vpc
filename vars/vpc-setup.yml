@@ -8,6 +8,7 @@
       ec2_vpc_net:
         name: "{{vpc_name}}"
         cidr_block: "{{vpcCidr}}"
+        region: "{{region}}"
         dns_support: yes
         dns_hostname: yes
         tenancy: default
